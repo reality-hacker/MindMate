@@ -10,7 +10,7 @@ Steps to run program:
 3. Save file
 4. Open cmd and type the following:
    
-     cd <file location>
+     cd (file location)
 
      NOTE: file location should be in the following format: (D:\Users\xyz)
 5. Type the following in cmd as well:
