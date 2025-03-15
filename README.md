@@ -9,6 +9,7 @@ Steps to run program:
 2. Paste code from MindMateAI.py into your preferred editor (preferably VS Code)
 3. Save file
 4. Open cmd and type the following:
+   
      cd <file location>
 
      NOTE: file location should be in the following format: (D:\Users\xyz)
