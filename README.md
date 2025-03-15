@@ -14,4 +14,5 @@ Steps to run program:
 
      NOTE: file location should be in the following format: (D:\Users\xyz)
 5. Type the following in cmd as well:
-     streamlit run <file name>.py
+
+     streamlit run (file name).py
