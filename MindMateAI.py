@@ -24,7 +24,7 @@ if "has_playlist_generator" not in st.session_state:
 if "has_book_recommendation" not in st.session_state:
     st.session_state.has_book_recommendation = False
 # Configure Google Gemini AI
-API_KEY = "AIzaSyBIT4V0hYpNnJy4IPKmVgkeGnGlBPyoIno"
+genai.configure(api_key="AIzaSyBIT4V0hYpNnJy4IPKmVgkeGnGlBPyoIno")  
 
 # Function to check and handle level-up
 def check_level_up():
@@ -166,10 +166,11 @@ elif st.session_state.page == "dashboard" and st.session_state.logged_in:
     elif selected_page == "🧠 AI Therapist":
         st.title("🧠 AI Therapist")
         user_input = st.text_area("📝 How are you feeling?")
+        therapist_template = "You are an AI therapist. I am your patient. Give suggestions. This is how I am feeling: "
         if st.button("Get Advice"):
             if user_input.strip():
                 model = genai.GenerativeModel("gemini-1.5-flash")
-                response = model.generate_content(user_input)
+                response = model.generate_content(therapist_template + user_input)
                 st.success(response.text)
                 st.session_state.xp_points += 10
                 st.session_state.mindcoins += 2
