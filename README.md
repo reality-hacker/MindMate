@@ -1,5 +1,5 @@
 # MindMate
-Link to app (only use if code doesn't work locally):https://mindmate-dbovf5qfddpbrbdp2ndxhf.streamlit.app/
+Link to app (only use if code doesn't work locally): https://mindmate-dbovf5qfddpbrbdp2ndxhf.streamlit.app/
 
 Steps to run program locally:
 
