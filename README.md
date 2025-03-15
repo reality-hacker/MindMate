@@ -1,5 +1,7 @@
 # MindMate
-Steps to run program:
+Link to app (only use if code doesn't work locally):https://mindmate-dbovf5qfddpbrbdp2ndxhf.streamlit.app/
+
+Steps to run program locally:
 
 1. Install the packages Streamlit and Google-generativeai using this in cmd:
 
@@ -16,3 +18,4 @@ Steps to run program:
 5. Type the following in cmd as well:
 
      streamlit run (file name).py
+   
